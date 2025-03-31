@@ -1,0 +1,105 @@
+.key-initiatives {
+    max-width: 1200px;
+    margin: auto;
+    text-align: left;
+    padding: 40px 20px;
+  }
+  
+  .content {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  .content h2 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .content p {
+    font-size: 16px;
+    color: #333;
+    max-width: 600px;
+    margin-top: 10px;
+  }
+  
+  .know-more {
+    border: 2px solid orange;
+    background: transparent;
+    color: orange;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  
+  .know-more:hover {
+    background: orange;
+    color: white;
+  }
+  
+  .initiatives-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .initiative-card {
+    width: 250px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    border: 2px solid transparent;
+  }
+  
+  .initiative-card .icon-container {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .initiative-card .icon-container img {
+    width: 100%;
+  }
+  
+  .initiative-card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 15px;
+  }
+  
+  .initiative-card p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .explore-btn {
+    width: 100%;
+    background: #999;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 15px;
+    border: none;
+    cursor: not-allowed;
+  }
+  
+  .initiative-card.active {
+    border: 2px solid orange;
+    box-shadow: 0px 4px 15px rgba(255, 165, 0, 0.4);
+  }
+  
+  .initiative-card.active .explore-btn {
+    background: orange;
+    cursor: pointer;
+  }
+  
