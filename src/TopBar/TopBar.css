@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #046004;
+  padding: 15px 50px;
+}
+
+.logo {
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+  letter-spacing: 11px;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.logo span {
+    font-size: 7px;
+    display: block;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    margin-top: -9px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+}
+  
+  .nav-menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+  .nav-menu ul li {
+    margin: 0 15px;
+    position: relative;
+}
+  
+  .nav-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+  
+  .nav-menu ul li a:hover,
+  .nav-menu ul .active {
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #046004;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    z-index: 10;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+  
+.dropdown-menu li a {
+    color: black;
+    display: block;
+    font-size: 14px;
+}
+  
+.dropdown-menu li a:hover {
+    background: white;
+    color: #046004;
+}
+  
+.login-btn {
+    padding: 8px 16px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+  
+.login-btn:hover {
+    background: white;
+    color: #046004;
+}

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700&display=swap');
+
+.footer {
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+}
+
+.footer-top {
+  background-color: #ff8c00;
+  padding: 50px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  max-width: 300px;
+}
+
+.footer-logo {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.footer-links {
+  display: flex;
+  gap: 80px;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+  color: #024502;
+}
+
+.footer-subscribe {
+  background: linear-gradient(to bottom, white, #ff8c00);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+  max-width: 280px;
+  margin-left: auto;
+}
+
+.subscribe-box h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.subscribe-box p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.subscribe-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.subscribe-btn {
+  background: linear-gradient(to bottom, white, #ff8c00);
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.subscribe-btn:hover {
+  background: #ff8c00;
+  color: white;
+}
+
+.footer-middle {
+  background-color: #ff8c00;
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer-policy {
+  background-color: #ff8c00;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-policy a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+.footer-policy a:hover {
+  color: #024502;
+}
+
+.footer-bottom {
+  background-color: #024502;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.footer-social-icons img {
+  width: 32px;
+  height: 32px;
+  padding: 5px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.footer-social-icons img:hover {
+  background: white;
+  transform: scale(1.1);
+}
+
+.copyright {
+  font-size: 12px;
+  font-weight: 400;
+}

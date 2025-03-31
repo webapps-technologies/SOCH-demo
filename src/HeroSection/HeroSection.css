@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@300;400;700&display=swap');
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  background: url('/herosec.png') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    padding: 20px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+  
+.logo-h {
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 12px;
+    margin: 0;
+}
+
+.tagline {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: -17px;
+}
+  
+.headline {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+  
+.description {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+  
+.explore-btn {
+    padding: 12px 24px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 25px;
+    border-radius: 5px;
+    width: 250px;
+}
+  
+.explore-btn:hover {
+    background: #046004;
+    color: white;
+}
