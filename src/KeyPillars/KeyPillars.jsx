@@ -3,7 +3,7 @@ import './KeyPillars.css';
 
 function KeyPillars() {
   return (
-    <div className="key-pillars">
+    <section className="key-pillars">
       <div className="left-section">
         <h2 className="title">Key Pillars of SOCH</h2>
         <div className="video-container">
@@ -14,7 +14,7 @@ function KeyPillars() {
         </div>
         <div className="text-button-container">
             <p className="description">
-                Lorem Ipsum is simply dummy text of the printing<br /> and typesetting industry.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             </p>
             <button className="know-more">Know More</button>
         </div>
@@ -43,7 +43,7 @@ function KeyPillars() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

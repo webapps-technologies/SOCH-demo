@@ -1,105 +1,119 @@
 .key-initiatives {
-    max-width: 1200px;
-    margin: auto;
-    text-align: left;
-    padding: 40px 20px;
-  }
-  
-  .content {
-    text-align: left;
-    margin-bottom: 30px;
-  }
-  
-  .content h2 {
-    font-size: 32px;
-    font-weight: 700;
-  }
-  
-  .content p {
-    font-size: 16px;
-    color: #333;
-    max-width: 600px;
-    margin-top: 10px;
-  }
-  
-  .know-more {
-    border: 2px solid orange;
-    background: transparent;
-    color: orange;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
-    border-radius: 5px;
-    margin-top: 15px;
-  }
-  
-  .know-more:hover {
-    background: orange;
-    color: white;
-  }
-  
-  .initiatives-cards {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-  }
-  
-  .initiative-card {
-    width: 250px;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    transition: 0.3s ease-in-out;
-    border: 2px solid transparent;
-  }
-  
-  .initiative-card .icon-container {
-    width: 80px;
-    height: 80px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .initiative-card .icon-container img {
-    width: 100%;
-  }
-  
-  .initiative-card h3 {
-    font-size: 16px;
-    font-weight: 700;
-    margin-top: 15px;
-  }
-  
-  .initiative-card p {
-    font-size: 14px;
-    color: #555;
-    margin-top: 10px;
-  }
-  
-  .explore-btn {
-    width: 100%;
-    background: #999;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 14px;
-    margin-top: 15px;
-    border: none;
-    cursor: not-allowed;
-  }
-  
-  .initiative-card.active {
-    border: 2px solid orange;
-    box-shadow: 0px 4px 15px rgba(255, 165, 0, 0.4);
-  }
-  
-  .initiative-card.active .explore-btn {
-    background: orange;
-    cursor: pointer;
-  }
-  
+  max-width: 1440px;
+  margin: auto;
+  padding: 6px 0px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.text h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.text p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin: 0;
+  margin-top: 15px;
+}
+
+.know-mor {
+  padding: 12px 20px;
+  width: 160px;
+  height: 50px;
+  border: 2px solid #ff8c00;
+  background: transparent;
+  color: #ff8c00;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-top: 105px;
+}
+
+.know-mor:hover {
+  background: #ff8c00;
+  color: white;
+}
+
+.initiatives-cards {
+  display: flex;
+  gap: 90px;
+  margin-top: 30px;
+}
+
+.initiative-card {
+  position: relative;
+  width: 300px;
+  height: 375px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: 0.3s ease-in-out;
+  border: 2px solid transparent;
+}
+
+.initiative-card .icon-container {
+  width: 110px;
+  height: 110px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.initiative-card .icon-container img {
+  width: 100%;
+}
+
+.initiative-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Work Sans, sans-serif;
+  margin-top: 25px;
+}
+
+.initiative-card p {
+  font-size: 16px;
+  font-family: Work Sans, sans-serif;
+  color: black;
+  margin-top: 30px;
+}
+
+.explore-btn {
+  width: 100%;
+  background: #999;
+  color: white;
+  margin-top: 30px;
+  padding: 15px 80px 15px 80px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: none;
+  cursor: not-allowed;
+}
+
+.explore-btn:hover {
+  border: 2px solid #ff8c00;
+  background: #ff8c00;
+  color: white;
+  box-shadow: 0 12px 24px rgba(255, 140, 0, 0.3);
+}
+
+
+.initiative-card:hover {
+  box-shadow: 0px -5px 40px rgba(255, 140, 0, 0.3);
+}

@@ -2,19 +2,22 @@ import React from 'react';
 import './GetInvolved.css';
 
 const cards = [
-  { id: 1, title: 'Partner with Us', img: '/plants.jpg', description: '' },
-  { id: 2, title: 'Donate', img: '/donate.jpg', description: 'Contribution options for individuals and corporations.' },
-  { id: 3, title: 'Volunteer', img: '/hands.jpg', description: '' }
+  { id: 1, title: 'Partner with Us', img: '/plants.jpg', description: 'Contribution options for individuals and corporations.' },
+  { id: 2, title: 'Donate', img: '/donate.jpeg', description: 'Contribution options for individuals and corporations.' },
+  { id: 3, title: 'Volunteer', img: '/hands.jpg', description: 'Contribution options for individuals and corporations.' }
 ];
 
 function GetInvolved() {
   return (
     <section className="get-involved">
-      <div className="text-section">
-        <h2>Get Involved</h2>
-        <p><strong>(How You Can Help)</strong> text of the printing and typesetting industry.<br />
-        Lorem Ipsum has been the industry’s</p>
-        <button className="know-more">Know More</button>
+      <div className="top-row">
+        <div className="text-block">
+          <h2>Get Involved</h2>
+          <p><strong>(How You Can Help)</strong> text of the printing and typesetting industry.<br />
+            Lorem Ipsum has been the industry’s
+          </p>
+        </div>
+        <button className="knowmore">Know More</button>
       </div>
       <div className="cards-container">
         {cards.map(card => (

@@ -11,7 +11,7 @@ function HeroSection() {
         <p className="description">
           Promote India’s Diverse Cultural Heritage And Regenerative Travel
         </p>
-        <button className="explore-btn">Explore Now</button>
+        <button className="explorenow-btn">Explore Now</button>
       </div>
     </div>
   );

@@ -2,31 +2,33 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgb(255, 111, 0);
+    background: #ff8c00;
     border-radius: 20px;
     padding: 40px 60px;
-    max-width: 1200px;
+    max-width: 1330px;
     margin: auto;
+    margin-top: 50px;
   }
   
   .warrior-content {
     color: white;
-    max-width: 50%;
   }
   
   .warrior-content h2 {
-    font-size: 32px;
+    font-family: Work Sans;
+    font-size: 48px;
     font-weight: 700;
   }
   
   .warrior-content p {
-    font-size: 16px;
-    margin: 15px 0;
+    font-family: Work Sans;
+    font-size: 18px;
     line-height: 1.5;
   }
   
   .register-btn {
     border: 2px solid white;
+    font-family: Work Sans;
     background: transparent;
     color: white;
     padding: 10px 20px;
@@ -34,15 +36,21 @@
     cursor: pointer;
     transition: 0.3s ease-in-out;
     border-radius: 5px;
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
   }
   
   .register-btn:hover {
     background: white;
-    color: rgb(255, 89, 0);
+    color: #ff8c00;
   }
   
   .warrior-image img {
-    width: 100%;
-    max-width: 250px;
+    /* position: fixed; */
+    height: 200px;
+    /* size: contain;
+    position: right;
+    height: 650px; */
   }
   

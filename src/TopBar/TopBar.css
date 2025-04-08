@@ -7,25 +7,24 @@
   align-items: center;
   background-color: #046004;
   padding: 15px 50px;
+  position: relative;
 }
 
 .logo {
   font-family: 'Anton', sans-serif;
-  font-size: 40px;
+  font-size: 47px;
   letter-spacing: 11px;
   color: white;
-  padding: 0;
-  margin: 0;
 }
 
 .logo span {
     font-size: 7px;
     display: block;
-    letter-spacing: 0px;
     text-transform: uppercase;
     font-family: "Work Sans", sans-serif;
     font-weight: 500;
     margin-top: -9px;
+    letter-spacing: 0.5px;
 }
 
 .nav-menu {
@@ -101,4 +100,63 @@
 .login-btn:hover {
     background: white;
     color: #046004;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  /* Show the hamburger icon */
+  .menu-toggle {
+    display: block;
+}
+
+.nav-menu {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background: #046004;
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 12;
+  margin-top: 38px;
+}
+
+.nav-menu.open {
+  display: flex;
+}
+
+.nav-menu ul {
+  flex-direction: column;
+}
+
+.nav-menu ul li {
+  margin: 10px 0;
+}
+
+.dropdown-menu {
+  position: static;
+  box-shadow: none;
+  width: auto;
+  background: #034003;
+}
+
+.dropdown-menu li {
+  text-align: center;
+}
+
+.login-btn {
+  margin-top: 10px;
+}
+
 }
