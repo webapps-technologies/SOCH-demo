@@ -47,10 +47,34 @@
   }
   
   .warrior-image img {
-    /* position: fixed; */
     height: 200px;
-    /* size: contain;
-    position: right;
-    height: 650px; */
+  }
+  
+
+  @media (max-width: 768px) {
+    .soch-warrior {
+      flex-direction: column;
+      text-align: center;
+      padding: 30px 20px;
+      gap: 20px;
+    }
+  
+    .warrior-content h2 {
+      font-size: 32px;
+    }
+  
+    .warrior-content p {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+  
+    .register-btn {
+      width: 100%;
+      max-width: 250px;
+    }
+  
+    .warrior-image img {
+      height: 160px;
+    }
   }
   

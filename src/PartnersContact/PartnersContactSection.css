@@ -50,7 +50,7 @@
   }
   
   .contact-section {
-    background-color: #f97316;
+    background-color: #ff8c00;
     border-radius: 1.5rem;
     padding: 3rem;
     margin: 2rem auto;
@@ -91,7 +91,7 @@
   
   .contact-form input[type='text'],
   .contact-form input[type='email'] {
-    width: 100%;
+    width: 90%;
     margin-bottom: 0.65rem;
     padding: 0.6rem 0.75rem;
     font-size: 0.95rem;
@@ -103,6 +103,7 @@
   .input-row {
     display: flex;
     gap: 0.75rem;
+    width: 96%;
     margin-bottom: 0.65rem;
   }
   
@@ -181,5 +182,94 @@
   .contact-form button {
     font-size: 1rem;
     padding: 0.7rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .partners-intro {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .partners-intro h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  .partners-intro p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .partners-intro button {
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
+    padding: 12px 16px;
+    font-size: 15px;
+  }
+
+  .contact-section {
+    flex-direction: column;
+    padding: 1.5rem 1rem;
+    margin: 1rem;
+    gap: 1.5rem;
+  }
+
+  .contact-text {
+    padding: 0;
+  }
+
+  .contact-text h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .contact-text p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .contact-form {
+    width: 100%;
+    padding: 1rem;
+    background-color: #ffecd2;
+    border-radius: 12px;
+    box-sizing: border-box;
+  }
+
+  .contact-form input[type='text'],
+  .contact-form input[type='email'],
+  .contact-form input[type='tel'],
+  .contact-form input[type='checkbox'],
+  .contact-form textarea {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+
+  .checkbox-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .contact-form button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.75rem;
+    border-radius: 8px;
+    margin-top: 10px;
   }
 }

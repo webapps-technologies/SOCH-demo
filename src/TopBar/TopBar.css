@@ -112,7 +112,6 @@
 }
 
 @media (max-width: 768px) {
-  /* Show the hamburger icon */
   .menu-toggle {
     display: block;
 }

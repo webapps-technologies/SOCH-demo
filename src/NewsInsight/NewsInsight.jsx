@@ -24,10 +24,10 @@ const FoodForThought = () => {
     <section className="food-section">
       <div className="food-header">
         <div className="text-blocked">
-          <h2>Food For Thought</h2>
+          <h2>News and Insights</h2>
           <p><strong>(How You Can Help)</strong> text of the printing and typesetting industry. <br />Lorem Ipsum has been the industry's</p>
         </div>
-        <button className="know-more-btn">Know More</button>
+        <button className="know-more-butn">Know More</button>
       </div>
 
       <div className="food-cards">

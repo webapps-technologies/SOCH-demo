@@ -33,11 +33,11 @@ export default function PartnersContactSection() {
         <form className="contact-form">
           <input type="text" placeholder="Name" />
           <input type="email" placeholder="Email" />
-          <input type="text" placeholder="phone number" />
+          <input type="text" placeholder="Phone Number" />
 
           <div className="input-row">
-            <input type="text" placeholder="city" />
-            <input type="text" placeholder="country" />
+            <input type="text" placeholder="City" />
+            <input type="text" placeholder="Country" />
           </div>
 
           <input type="text" placeholder="How did you find us ?" />

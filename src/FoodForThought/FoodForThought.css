@@ -126,7 +126,7 @@
   @media (max-width: 768px) {
     .food-section {
       padding: 20px;
-      margin-top: 60px;
+      margin-top: 0px;
     }
 
     .food-header {
@@ -149,7 +149,6 @@
       margin-top: 10px;
       width: 90%;
       height: auto;
-      margin: auto;
     }
   
     .food-cards {
